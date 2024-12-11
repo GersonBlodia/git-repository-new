@@ -1,0 +1,27 @@
+.custom-pagination {
+    background-color: #d4af37; /* Color dorado */
+    opacity: 0.8;
+    width: 12px;
+    height: 12px;
+    margin: 0 4px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .custom-pagination.swiper-pagination-bullet-active {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  
+  .custom-next {
+      color: #dcab0a;
+  }
+  .custom-prev {
+    color: #dcab0a;
+  }
+  .custom-prev:hover,
+  .custom-next:hover {
+    color: #d4af37;
+    transform: scale(1.1);
+  }
+  
