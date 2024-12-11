@@ -115,8 +115,7 @@ const PageNosotros = () => {
 
           
           {/*acá */}
-          <FeaturesSection/>
-
+          
 
         </div>
       </section>
