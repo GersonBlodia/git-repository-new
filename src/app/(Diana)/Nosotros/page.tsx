@@ -1,5 +1,5 @@
 import { StatsSection } from "@/components/about/CountNumber"
-import { FeaturesSection } from "@/components/about/FeaturesSection"
+ 
 import Image from "next/image"
 import { BsArrowRight } from "react-icons/bs"
 
