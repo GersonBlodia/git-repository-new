@@ -1,31 +1,14 @@
- 
- 
-import { ContactUsForm } from '@/components/formulario/ContactUsForm'
-import { CoffeeMenu } from '@/components/main/CoffeeMenu'
-import { FoodMenu } from '@/components/main/MainProduct'
-import { RestaurantShowcase } from '@/components/slider/Really'
-import { CommentSlider } from '@/components/slider/SliderCommentary'
-import React from 'react'
+"use client"
+import { MainComponent } from '@/components/main/MainComponent'
 
 const DianaHomePage = () => {
   return (
     <div>
-         <RestaurantShowcase/>
-
-         {/*section new */}
-
-         <CoffeeMenu/>
-
-         {/*comidas */}
-
-
-         <FoodMenu/>
-
-         <CommentSlider/>
-
-         <ContactUsForm/>
+          <MainComponent/>
     </div>
   )
 }
+/*
 
+*/
 export default DianaHomePage
