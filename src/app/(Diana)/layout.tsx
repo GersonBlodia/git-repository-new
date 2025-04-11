@@ -10,9 +10,9 @@ export default function RootLayout({
       <body
          
       >
-      
+      <HeaderComponents/>
         {children}
-         
+        <Footer/>
       </body>
     </html>
   );
